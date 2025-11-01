@@ -1,0 +1,5 @@
+// src/app/components/recipe-list/recipe-list.component.html
+<div *ngFor="let recipe of recipes">
+  <h3>{{recipe.title}}</h3>
+  <img [src]="recipe.image" alt="{{recipe.title}}" />
+</div>
