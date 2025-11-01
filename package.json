@@ -1,0 +1,6 @@
+// package.json
+{
+  "name": "interactive-recipe-finder",
+  "dependencies": {"@angular/core": "^13.0.0", "@angular/common/http": "^13.0.0"},
+  "scripts": {"start": "ng serve"}
+}
